@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-/* * Scholarship Academic Logic Helper
- * Created for: Stipendium Hungaricum Portfolio
- */
+//Scholarship Academic Logic Helper
+
 int main() {
     float marks, total = 0, average;
     int subjects, i;
@@ -22,7 +21,7 @@ int main() {
     printf("Total Score: %.2f\n", total);
     printf("Average Percentage: %.2f%%\n", average);
 
-    // This conditional logic proves your problem-solving skills
+    
     if(average >= 85) {
         printf("Status: Excellent! Strong prospect for international scholarships.\n");
     } else if(average >= 70) {
